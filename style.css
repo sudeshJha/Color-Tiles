@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  font-family: "doto", monospace;
+}
+
+h1 {
+  text-align: center;
+  margin: 10rem auto;
+  font-size: 6rem;
+  color: white;
+  font-weight: 900;
+  text-shadow: 1px 1px 13px white;
+}
+
+.tile-container {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  gap: 0.5rem;
+  width: fit-content;
+  margin: 0rem auto;
+  padding: 2rem;
+  box-shadow: 1px 1px 50px rgb(75, 74, 74);
+}
+
+.tile {
+  height: 3rem;
+  width: 3rem;
+  background-color: #222;
+}
