@@ -1,7 +1,7 @@
 "use strict";
 const tileContainer = document.querySelector(".tile-container");
 
-for (let i = 0; i < 390; i++) {
+for (let i = 0; i < 250; i++) {
   const tile = document.createElement("div");
   // tile.innerHTML = "hello";
   tile.classList.add("tile");

@@ -16,8 +16,8 @@ body {
 
 h1 {
   text-align: center;
-  margin: 10rem auto;
-  font-size: 6rem;
+  margin: 7rem auto;
+  font-size: 5rem;
   color: white;
   font-weight: 900;
   text-shadow: 1px 1px 13px white;
@@ -25,7 +25,7 @@ h1 {
 
 .tile-container {
   display: grid;
-  grid-template-columns: repeat(30, 1fr);
+  grid-template-columns: repeat(25, 1fr);
   gap: 0.5rem;
   width: fit-content;
   margin: 0rem auto;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .tile {
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #222;
 }
